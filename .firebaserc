@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "fastdash",
+    "mexmax": "mexmax-api",
+    "westgate": "westgatedash-d1341",
+    "nova": "fwd-frontend-dc7d1"
+  }
+}

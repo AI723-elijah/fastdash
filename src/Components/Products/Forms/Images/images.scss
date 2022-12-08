@@ -1,0 +1,23 @@
+.images {
+  .item {
+    position: relative;
+    img {
+      height: 200px;
+      max-width: 100%;
+      border: 2px solid #e8e8e8;
+    }
+    .missing-label {
+      height: 100%;
+    }
+    .remove-btn {
+      position: absolute;
+      right: 24px;
+    }
+    .thumbnail-checkbox{
+      position: absolute !important;
+      right: 20px !important;
+      top: 20px !important;
+    }
+  }
+}
+

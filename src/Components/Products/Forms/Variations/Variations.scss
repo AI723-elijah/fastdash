@@ -1,0 +1,38 @@
+.variation-collapse {
+  background-color: #f0f2f5 !important;
+  .variation-panel {
+    background: #fff;
+    border: 0;
+    overflow: hidden;
+    margin-bottom: 24px;
+    .variation-row {
+      .image-container {
+        width: 100%;
+        height: 75px;
+        margin-bottom: 15px;
+        padding: 5px;
+        border: 1px solid #e8e8e8;
+        position: relative;
+        img {
+          height: 65px;
+        }
+        .icon {
+          font-size: 52px;
+        }
+        .close-btn {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+      }
+    }
+  }
+}
+.sageCol {
+  padding: 2px;
+  margin: 2px;
+  border: 1px solid #000;
+}
+.sageRow {
+  margin: 10px 0px;
+}

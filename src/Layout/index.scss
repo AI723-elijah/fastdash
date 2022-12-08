@@ -1,0 +1,15 @@
+.im-dashboard-layout {
+  .im-sidebar {
+    .im-sidebar-title {
+      color: #fff;
+    }
+    .menu-list {
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .im-logout-btn {
+      position: absolute;
+      bottom: 10px;
+    }
+  }
+}

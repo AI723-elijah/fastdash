@@ -1,0 +1,60 @@
+{
+  "name": "fastdash",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/compatible": "^1.1.0",
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.5",
+    "array-move": "^4.0.0",
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "firebase": "^6.4.0",
+    "he": "^1.2.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.9.0",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^16.9.0",
+    "react-export-excel": "^0.5.3",
+    "react-firebase-file-uploader": "^2.4.2",
+    "react-gtm-module": "^2.0.11",
+    "react-password-protected-pdf-viewer": "^1.0.9",
+    "react-quill": "^1.3.3",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-thunk": "^2.3.0",
+    "xlsx": "^0.15.1",
+    "xlsx-style": "^0.8.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy-fas": "cp .fas.env .env && yarn run build && firebase use default && firebase deploy",
+    "deploy-mexmax": "cp .mexmax.env .env && yarn run build && firebase use mexmax && firebase deploy",
+    "deploy-westgate": "copy .westgate.env .env && yarn run build && firebase use westgate && firebase deploy",
+    "deploy-nova": "cp .fwd.env .env && yarn run build && firebase use nova && firebase deploy"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

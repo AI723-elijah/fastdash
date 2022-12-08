@@ -1,0 +1,125 @@
+.icons-list {
+  .image-container {
+    img {
+      max-height: 60px;
+    }
+  }
+}
+.chose-file {
+  margin-left: 10px !important;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.change-image {
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+.tabs {
+  .tab {
+    padding: 5px 25px;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8;
+    margin: 0px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .tab-active {
+    background: grey;
+    color: white;
+  }
+  .tab-inactive {
+    background: #e8e8e8
+  }
+}
+.list-item {
+  padding: 5px;
+  input {
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer !important;
+  }
+}
+.loading {
+  text-align: center;
+  margin: 20px;
+  overflow-y: hidden !important;
+}
+.options-doc-main {
+  padding: 10px;
+  border: 1px solid #000;
+}
+.mt-3 {
+  margin-top: 20px;
+}
+.options-doc-row {
+  border: 1px solid;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.text-bold {
+  font-weight: bold;
+}
+.col-mb {
+  margin-bottom: 10px;
+}
+.document-list{
+  i{
+    margin-right: 5px;
+  }
+}
+.table-actions-btn {
+  display: flex;
+  flex-direction: column;
+  .action-item {
+    margin-top: 5px;
+    .action-btn {
+      width: 85px;
+      display: inline-flex;
+      cursor: pointer;
+      i {
+        margin-top: auto;
+        margin-bottom:auto;
+      }
+    }
+  }
+}
+.update-doc-box{
+  position: relative;
+  padding: 10px 5px;
+  border: 1px solid;
+  input{
+    height: 21px !important;
+  }
+  i{
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    font-size: large;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,199 @@
+$white: #fff;
+$black: #000;
+$bg-gray: #f0f2f5;
+
+$custom-theme-1: #181818;
+$custom-theme-1-hover: #6d6d6d;
+$custom-theme-2: #278b8f;
+$custom-theme-2-shadow: 0 0 0 2px rgba(143, 221, 224, 0.2);
+$custom-theme-2-hover: #41a3a7;
+$custom-theme-2-very-light: #e7feff;
+
+body {
+  a {
+    color: $custom-theme-2;
+  }
+
+  .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: $custom-theme-2-very-light;
+  }
+
+  .ant-menu-item-selected a {
+    color: $custom-theme-2-hover;
+  }
+
+  .ant-menu-item a {
+    &:hover {
+      color: $custom-theme-2-hover;
+    }
+  }
+
+  .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right: 3px solid $custom-theme-2-hover;
+  }
+
+  .ant-input, .ant-select-selection, .ant-select-focused .ant-select-selection, .ant-input-number {
+    &:hover, &:focus {
+      border-color: $custom-theme-2-hover;
+    }
+    &:focus {
+      box-shadow: $custom-theme-2-shadow;
+    }
+  }
+
+  .ant-calendar-today {
+    .ant-calendar-date {
+      color: $custom-theme-2;
+      border-color: $custom-theme-2;
+    }
+  }
+
+  .ant-calendar-date {
+    &:hover {
+      background: $custom-theme-2-very-light;
+    }
+  }
+
+  .ant-calendar-selected-date {
+    .ant-calendar-date {
+      color: $white;
+      background: $custom-theme-2;
+    }
+  }
+
+  .ant-calendar-picker {
+    &:hover {
+      .ant-calendar-picker-input {
+        border-color: $custom-theme-2-hover !important;
+      }
+    }
+    &:focus {
+      .ant-calendar-picker-input {
+        box-shadow: $custom-theme-2-shadow;
+      }
+    }
+  }
+
+  .ant-input-number-focused {
+    border-color: $custom-theme-2-hover;
+    box-shadow: $custom-theme-2-shadow;
+  }
+
+  .ant-select-focused {
+    .ant-select-selection {
+      border-color: $custom-theme-2-hover;
+      box-shadow: $custom-theme-2-shadow;
+    }
+  }
+
+  .ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+    background-color: $custom-theme-2-very-light;
+    background: $custom-theme-2-very-light;
+  }
+
+  .ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+    background: $custom-theme-2-very-light;
+  }
+
+  .ant-btn {
+    &:hover, &:focus {
+      border-color: $custom-theme-2-hover;
+      color: $custom-theme-2-hover;
+    }
+  }
+  .ant-btn-primary {
+    background-color: $custom-theme-2;
+    border-color: $custom-theme-2;
+    &:hover, &:focus {
+      background-color: $custom-theme-2-hover;
+      border-color: $custom-theme-2-hover;
+      color: $white !important;
+    }
+  }
+  .ant-btn-danger {
+    background-color: $custom-theme-1;
+    border-color: $custom-theme-1;
+    &:hover, &:focus {
+      background-color: $custom-theme-1-hover;
+      border-color: $custom-theme-1-hover;
+      color: $white !important;
+    }
+  }
+}
+
+#root {
+  .circle-lg {
+    color: $custom-theme-2;
+    border: 1px solid $custom-theme-2;
+  }
+
+  .ant-layout-sider {
+    background: $white;
+  }
+
+  .ant-spin-dot-item {
+    background-color: $custom-theme-2;
+  }
+
+  tr:hover:not(.ant-table-expanded-row) {
+    td {
+      background: $custom-theme-2-very-light;
+    }
+  }
+
+  .ant-pagination-item {
+    a {
+      &:hover {
+        color: $custom-theme-2;
+      }
+    }
+    &:hover {
+      border-color: $custom-theme-2;
+    }
+  }
+  .ant-pagination-item-active {
+    border-color: $custom-theme-2;
+    a {
+      color: $custom-theme-2;
+    }
+  }
+
+  .ant-switch {
+    &:focus {
+      box-shadow: $custom-theme-2-shadow;
+    }
+  }
+  .ant-switch-checked {
+    background-color: $custom-theme-2-hover;
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: $custom-theme-2-hover;
+  }
+  .ant-tabs-tab {
+    &:hover {
+      color: $custom-theme-2-hover;
+    }
+  }
+  .ant-tabs-tab-active {
+    color: $custom-theme-2-hover;
+  }
+
+  .ant-page-header-back-button {
+    &:hover, &:focus {
+      color: $custom-theme-2-hover;
+    }
+  }
+
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner, .ant-checkbox:hover .ant-checkbox-inner, .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: $custom-theme-2-hover;
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $custom-theme-2-hover;
+  }
+
+  .ant-checkbox-checked::after {
+    border-color: $custom-theme-2-hover;
+  }
+}

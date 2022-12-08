@@ -1,0 +1,32 @@
+.categories-list {
+  .icon-btn {
+    border: 1px solid #747474;
+    border-radius: 2px;
+    color: #747474;
+    padding: 2px;
+    &:hover {
+      background: #747474;
+      color: white;
+    }
+  }
+  .edit-icon {
+    border: 1px solid #1890ff;
+    border-radius: 2px;
+    color: #1890ff;
+    padding: 2px;
+    &:hover {
+      background: #1890ff;
+      color: white;
+    }
+  }
+  .delete-icon {
+    border: 1px solid #ff4d4f;
+    border-radius: 2px;
+    color: #ff4d4f;
+    padding: 2px;
+    &:hover {
+      background: #ff4d4f;
+      color: white;
+    }
+  }
+}

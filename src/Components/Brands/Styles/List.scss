@@ -1,0 +1,11 @@
+.categories-list {
+    .icon-btn {
+      border: 1px solid #747474;
+      border-radius: 2px;
+      color: #747474;
+      &:hover {
+        background: #747474;
+        color: white;
+      }
+    }
+  }

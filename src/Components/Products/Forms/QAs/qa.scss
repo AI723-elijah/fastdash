@@ -1,0 +1,26 @@
+.button{
+    border: none;
+    border-radius:5px;
+    margin-right: 20px;
+    color:white;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+.approved {
+background:red;
+}
+.disapproved{
+    background:green
+}
+.info-count{
+    background: black;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 4px;
+    font-size: smaller;
+    margin-right: 5px;
+}
+.active-section{
+    text-align: center;
+    margin-top: 10px;
+}
